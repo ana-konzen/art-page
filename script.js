@@ -24,17 +24,17 @@ async function getData(colorValues) {
             must: [
               {
                 range: {
-                  "color.h": { gte: colorValues.h - 5, lte: colorValues.h + 5 },
+                  "color.h": { gte: colorValues.h - 2, lte: colorValues.h + 2 },
                 },
               },
               {
                 range: {
-                  "color.l": { gte: colorValues.l - 5, lte: colorValues.l + 5 },
+                  "color.l": { gte: colorValues.l - 2, lte: colorValues.l + 2 },
                 },
               },
               {
                 range: {
-                  "color.s": { gte: colorValues.s - 5, lte: colorValues.s + 5 },
+                  "color.s": { gte: colorValues.s - 2, lte: colorValues.s + 2 },
                 },
               },
               {
