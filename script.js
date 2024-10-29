@@ -44,7 +44,7 @@ async function getData(colorValues) {
               },
               {
                 range: {
-                  "color.percentage": { gte: 0.5 },
+                  "color.percentage": { gte: 0.3 },
                 },
               },
             ],
